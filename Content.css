@@ -10,23 +10,16 @@ footer {
 
 }
 
-.rightSideBar {
-    background-color: yellow;
-    height: 500px;
-    width: 100px;
-    float: right;
+.grid-container {
+    padding: 40px;
+    column-gap: 20px;
+    row-gap: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
 }
 
-.leftSidebar {
-    background-color: pink;
-    height: 500px;
-    width: 100px;
-}
-
-.middleBody {
-    background-color: blueviolet;
-    height: 500px;
-    width: 700px;
-    margin-left: 100px;
-    margin-bottom: -500px;
+.grid-item {
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
 }
